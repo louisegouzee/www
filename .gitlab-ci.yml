@@ -1,14 +1,14 @@
 include:
   - project: SocialGouv/gitlab-ci-yml
     file: /autodevops.yml
-    ref: kosko-without-docker
+    ref: kosko-without-docker2
 
 variables:
   AUTO_DEVOPS_RELEASE_AUTO: "🔖"
   AUTO_DEVOPS_PRODUCTION_AUTO: "🚀"
   #AUTO_DEVOPS_ENABLE_KAPP: "🚀"
   AUTO_DEVOPS_KANIKO: "enabled"
-  AUTO_DEVOPS_ENABLE_KAPP: "🍑"
+  #AUTO_DEVOPS_ENABLE_KAPP: "🍑"
 
 # NOTE(douglasduteil): No install :(
 # sharing the node_modules is too slow...
