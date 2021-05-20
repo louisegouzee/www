@@ -1,7 +1,7 @@
 include:
   - project: SocialGouv/gitlab-ci-yml
     file: /autodevops.yml
-    ref: kosko-without-docker7
+    ref: kosko-without-docker8
 
 variables:
   AUTO_DEVOPS_RELEASE_AUTO: "🔖"
